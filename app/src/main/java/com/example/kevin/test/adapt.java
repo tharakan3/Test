@@ -37,7 +37,18 @@ public class adapt extends RecyclerView.Adapter<adapt.viewholder> {
     public void onBindViewHolder(@NonNull viewholder holder, int position) {
             events eve = listitem.get(position);
             holder.ename.setText(eve.getEname());
+            holder.edel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
+                }
+            });
+            holder.eview.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
 
     }
 
@@ -48,7 +59,6 @@ public class adapt extends RecyclerView.Adapter<adapt.viewholder> {
 
     public class viewholder extends RecyclerView.ViewHolder{
         public TextView ename;
-        public TextView edesc;
         public Button edel;
         public Button eview;
 

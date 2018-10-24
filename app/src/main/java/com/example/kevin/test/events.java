@@ -10,11 +10,9 @@ public class events {
     public Button edel;
     public Button eview;
 
-    public events(String ename, String edes,Button edel,Button eview) {
+    public events(String ename, String edes) {
         this.ename = ename;
         this.edes = edes;
-        this.edel = edel;
-        this.eview = eview;
 
     }
 

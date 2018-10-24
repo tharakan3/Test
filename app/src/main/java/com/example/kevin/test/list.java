@@ -27,6 +27,7 @@ public class list extends AppCompatActivity {
             events e1 = new events(
                     "Event" + (i+1),
                     "Details of Event" + (i+1)
+
             );
             le.add(e1);
 
